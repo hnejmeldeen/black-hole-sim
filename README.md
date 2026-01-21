@@ -6,14 +6,7 @@ Last Updated - Jan. 20 2026
 
 Overview:
 
-Polyrender is a 3D graphics rendering software written in C++ using OpenGL and GLFW. It takes a simple user-provided text file as input and produces a rendering of 3D shapes.
-
-
-User provides a .txt file containing shape definitions and transformation parameters (see examples).
-
-The program parses the file and builds vertex data.
-
-Shapes are rendered using OpenGL with the specified rotations, translations, and scalings applied.
+An interactive real-time black-hole simulator. Light rays are traced by integrating null geodesics in Schwarzschild spacetime (non-rotating, spherically symmetric mass). Visualizes basic relativistic lensing and time-dilation effects on interactive objects and the central mass.
 
 ------------------------------------------------------------------------------------------------
 
