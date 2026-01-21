@@ -15,9 +15,9 @@ FetchContent_MakeAvailable(glfw)
 
 find_package(OpenGL REQUIRED)
 
-add_executable(Black_Hole_Sim viewer.cpp)
+add_executable(bh-sim viewer.cpp)
 
-target_link_libraries(Black_Hole_Sim
+target_link_libraries(bh-sim
     glfw
     OpenGL::GL
 )
